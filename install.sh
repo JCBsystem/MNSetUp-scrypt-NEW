@@ -104,7 +104,7 @@ apt-get -qq install aptitude
 wget $TARBALLURL && tar -xvf $TARBALLNAME -C $USERHOME/  && rm $TARBALLNAME
 cp $USERHOME/trittiumd /usr/local/bin
 cp $USERHOME/trittium-cli /usr/local/bin
-cp $USERHOME/trittium-tx /usr/local/bin
+#cp $USERHOME/trittium-tx /usr/local/bin
 rm $USERHOME/trittium*
 chmod 755 /usr/local/bin/trittium*
 # Create .trittium2 directory
