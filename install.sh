@@ -59,7 +59,7 @@ echo "
 
 sleep 5
 
-USER=tritt
+USER=root
 
 adduser $USER --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password > /dev/null
 
