@@ -61,9 +61,9 @@ sleep 5
 
 USER=root
 
-adduser $USER --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password > /dev/null
+#adduser $USER --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password > /dev/null
 
-echo "" && echo 'Added user "tritt"' && echo ""
+#echo "" && echo 'Added user "tritt"' && echo ""
 sleep 1
 
 
