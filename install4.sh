@@ -57,14 +57,14 @@ echo "
 
 "
 
-sleep 5
+#sleep 5
 
 USER=root
 
 #adduser $USER --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password > /dev/null
 
 #echo "" && echo 'Added user "tritt"' && echo ""
-sleep 1
+#sleep 1
 
 
 USERHOME=`eval echo "~$USER"`
@@ -155,8 +155,9 @@ sleep 1
 
 #sudo systemctl start trittiumd
 su - $USER -c trittiumd
-
+sleep 5
 clear
+
 
 echo "Your masternode is syncing. Please wait for this process to finish."
 echo "This can take up to a few hours. Do not close this window." && echo ""
